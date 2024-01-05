@@ -31,49 +31,48 @@
     }
 
     #weather-app {
-        background: white;
-        border: solid white ;
-         max-width: 600px;
-        padding: 30px;
+      background: white;
+      border: solid white;
+      max-width: 600px;
+      padding: 30px;
     }
   </style>
   <body>
+    <div id="weather-app">
+      <header>
+        <div class="search-display">
+          <form><input type="search" /></form>
+          <span> <h1 class="current-country">London, UK</h1></span>
+        </div>
+        <div class="current-temperature">10°C</div>
+      </header>
+      <main>
+        <div class="weather-information">
+          Friday 10:53, clear sky
+          <div>Humidity: 82%, Wind: 5.66km/h</div>
+        </div>
 
-    <div id="weather-app"></div>
-    <header>
-      <div class="search-display">
-        <form><input type="search" /></form>
-        <span> <h1 class="current-country">London, UK</h1></span>
+        <hr />
+      </main>
+      <div class="container">
+        <footer>
+          Coded by
+          <a href="https://github.com/CleoJayCodes" target="_blank">
+            Jarnae Blackett
+          </a>
+          , is open sourced on
+          <a
+            href="https://github.com/CleoJayCodes/Project-Weather.Off"
+            target="_blank"
+          >
+            Github
+          </a>
+          and hosted on
+          <a href="https://weatherappcj.netlify.app/" target="_blank">
+            Netlify
+          </a>
+        </footer>
       </div>
-      <div class="current-temperature">10°C</div>
-    </header>
-    <main>
-      <div class="weather-information">
-        Friday 10:53, clear sky
-        <div>Humidity: 82%, Wind: 5.66km/h</div>
-      </div>
-
-      <hr />
-    </main>
-    <div class="container">
-      <footer>
-        Coded by
-        <a href="https://github.com/CleoJayCodes" target="_blank">
-          Jarnae Blackett
-        </a>
-        , is open sourced on
-        <a
-          href="https://github.com/CleoJayCodes/Project-Weather.Off"
-          target="_blank"
-        >
-          Github
-        </a>
-        and hosted on
-        <a href="https://weatherappcj.netlify.app/" target="_blank">
-          Netlify
-        </a>
-      </footer>
-    </div>
     </div>
   </body>
 </html>
