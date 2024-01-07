@@ -53,6 +53,18 @@ body {
   border: solid 1px #b0cddaa2;
   border-radius: 5px;
   color: rgba(117, 113, 113, 0.698);
+  transition: 0.3s ease-in-out 100ms;
+}
+
+.search-form-button:hover {
+  padding: 20px;
+  background-color: #e47777b5;
+  box-shadow: 10px 10px 50px rgba(245, 241, 241, 0.664);
+  border: solid 1px #e18585b5;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s ease-in-out 100ms;
+  cursor: pointer;
 }
 
 .current-country {
