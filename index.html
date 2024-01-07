@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight&family=Lexend+Zetta&family=Roboto+Flex:opsz@8..144&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <style></style>
@@ -11,10 +21,22 @@
     <div id="weather-app">
       <header>
         <div class="search-display">
-          <form><input type="search" /></form>
+          <form>
+            <input
+              type="search"
+              placeholder="Enter a City.."
+              required
+              class="search-form-input"
+            />
+            <input type="submit" value="Search" class="search-form-button" />
+          </form>
+
           <span> <h1 class="current-country">London, UK</h1></span>
         </div>
-        <div class="current-temperature">🌥️10°C</div>
+        <div class="current-temperature">
+          <div>🌥️</div>
+          10°C
+        </div>
       </header>
       <main>
         <div class="weather-information">
@@ -22,10 +44,12 @@
           <div>Humidity: 82%, Wind: 5.66km/h</div>
         </div>
 
+        <br />
+        <br />
         <hr />
       </main>
-      <div class="container">
-        <footer>
+      <footer>
+        <p>
           Coded by
           <a href="https://github.com/CleoJayCodes" target="_blank">
             Jarnae Blackett
@@ -41,8 +65,8 @@
           <a href="https://weatherappcj.netlify.app/" target="_blank">
             Netlify
           </a>
-        </footer>
-      </div>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

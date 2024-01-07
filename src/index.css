@@ -21,12 +21,60 @@ body {
     background-position: 0% 50%;
   }
 }
+body {
+  font-family: "Inter Tight", sans-serif;
+}
 
 #weather-app {
   background: rgba(228, 228, 228, 0.55);
   border-radius: 10px;
+  box-shadow: 5px 30px 50px rgba(164, 168, 171, 0.418);
   max-width: 600px;
   padding: 50px 20px 100px 20px;
   display: block;
   margin: auto;
+  backdrop-filter: blur(10px);
+}
+
+.search-form-input {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline gainsboro;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 10px 5px 50px rgba(255, 255, 255, 0.573);
+  font-size: 15px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.search-form-button {
+  padding: 20px;
+  background-color: #b0cddaa2;
+  box-shadow: 10px 10px 50px rgba(202, 201, 201, 0.664);
+  border: solid 1px #b0cddaa2;
+  border-radius: 5px;
+  color: rgba(117, 113, 113, 0.698);
+}
+
+.current-country {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.current-temperature {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.weather-information {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+p {
+  color: white;
 }
