@@ -26,7 +26,6 @@ body {
   background: rgba(228, 228, 228, 0.55);
   border-radius: 10px;
   max-width: 600px;
-  padding: 30px;
+  padding: 50px 0px 50px 0px;
   display: block;
-  margin: auto;
 }
