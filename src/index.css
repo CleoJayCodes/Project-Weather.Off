@@ -101,3 +101,24 @@ a {
   margin-right: 220px;
   font-size: 40px;
 }
+
+.weather-forecast {
+  text-align: left;
+  margin-top: 15px;
+  color: white;
+  margin-left: 10px;
+}
+
+.weather-forecast-date {
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+.weather-temperature-max {
+  font-size: 20px;
+  color: white;
+}
+.weather-temperature-min {
+  color: gray;
+  opacity: 0.5;
+}
