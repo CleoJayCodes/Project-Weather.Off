@@ -52,3 +52,33 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", citySearchSubmit);
 
 searchCity("London");
+
+function displayForecast() {
+  let days = ["Tues", "Wed", "Thur", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+       
+   <div class="weather-forecast-day">
+        <div class="weather-forecast-date">${day}</div>
+        <div class="weather-forecast-icon"> <img 
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day-rain.svg"
+          width="65"
+        /></div>
+        <div class="weather-temperatures">
+          <div class="weather-forecast-max">
+            <strong>15º</strong>
+          </div>
+          <div class="weather-forecast-min">9º</div>
+        </div>
+      </div>
+`;
+  });
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
+displayForecast();
